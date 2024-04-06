@@ -1,10 +1,13 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import { createYmaps } from 'vue-yandex-maps'
 
 import App from './App.vue'
 import Main from './layouts/Main.vue'
 import Registration from './layouts/Reg.vue'
 import Authorisation from './layouts/Auth.vue'
+import Map from './layouts/Map.vue'
+import Statisctics from './layouts/Statisctics.vue'
 
 import './assets/main.css'
 
@@ -25,6 +28,15 @@ const router = createRouter({
       name: 'Auth',
       path: '/Authorisation',
       component: Authorisation
+    },
+    {
+      name: 'Map',
+      path: '/Map',
+      component: Map
+    },{
+      name: 'Statisctics',
+      path: '/Statisctics',
+      component: Statisctics
     }
   ]
 })

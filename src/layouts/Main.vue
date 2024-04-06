@@ -1,5 +1,5 @@
 <script setup>
-	import { ChevronRightIcon } from '@heroicons/vue/24/solid'
+import { ChevronRightIcon } from '@heroicons/vue/24/solid'
 </script>
 
 <template>
@@ -8,14 +8,18 @@
       <img src="C:\OSPanel\domains\BIMS-GISIT\src\assets\Logo.png" alt="" />
     </a>
     <ul class="space-x-7 flex my-auto">
-      <li>карта</li>
-      <li>статистика</li>
+      <RouterLink to="/Map">Карта</RouterLink>
+      <RouterLink to="/Statisctics">Статистика</RouterLink>
       <li>прогноз</li>
       <li>аналитика</li>
     </ul>
     <div class="space-x-5 my-auto">
       <RouterLink to="/Registration">Регистрация</RouterLink>
-      <RouterLink class="bg-[#05A8DA] py-3 px-14 rounded-full text-white text-[20px]" to="/Authorisation">Вход</RouterLink>
+      <RouterLink
+        class="bg-[#05A8DA] py-3 px-14 rounded-full text-white text-[20px]"
+        to="/Authorisation"
+        >Вход</RouterLink
+      >
     </div>
   </header>
 
