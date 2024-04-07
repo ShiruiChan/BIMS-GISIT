@@ -8,6 +8,8 @@ import Registration from './layouts/Reg.vue'
 import Authorisation from './layouts/Auth.vue'
 import Map from './layouts/Map.vue'
 import Statisctics from './layouts/Statisctics.vue'
+import Analytics from './layouts/Analytics.vue'
+import Prognos from './layouts/Prognos.vue'
 
 import './assets/main.css'
 
@@ -33,10 +35,21 @@ const router = createRouter({
       name: 'Map',
       path: '/Map',
       component: Map
-    },{
+    },
+    {
       name: 'Statisctics',
       path: '/Statisctics',
       component: Statisctics
+    },
+    {
+      name: 'Analytics',
+      path: '/Analytics',
+      component: Analytics
+    },
+    {
+      name: 'Prognos',
+      path: '/Prognos',
+      component: Prognos
     }
   ]
 })

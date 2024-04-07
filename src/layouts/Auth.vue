@@ -29,11 +29,7 @@
     <!-- Right column -->
     <RouterLink to="/"
       ><div>
-        <img
-          class="h-screen"
-          src="../assets/RightPic.png"
-          alt=""
-        /></div
+        <img class="h-screen" src="../assets/RightPic.png" alt="" /></div
     ></RouterLink>
   </div>
 </template>

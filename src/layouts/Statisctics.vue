@@ -5,7 +5,7 @@
 	<Header/>
 
 	<main>
-		<div class="py-[5vh] grid gap-y-12 mx-auto w-4/5">
+		<div class="py-[5vh] grid gap-y-16 mx-auto w-4/5">
 			<div class="grid gap-y-10">
 				<h1 class="text-5xl font-medium">Ежегодная статистика</h1>
 				<div class="text-2xl grid grid-cols-4">
@@ -48,6 +48,7 @@
 					</div>
 				</div>
 			</div>
+			<img src="../assets/Statis.png" alt="">
 		</div>
 	</main>
 </template>
