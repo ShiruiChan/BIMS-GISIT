@@ -6,7 +6,7 @@
     >
       <h3 class="text-5xl">Регистрация</h3>
       <div class="mx-auto h-[1px] bg-[#767676] w-5/6 mt-12"></div>
-      <form action="server.php" method="POST" class="w-[calc(25vw*0.8)] grid gap-y-6">
+      <form action="./server.php" method="POST" class="w-[calc(25vw*0.8)] grid gap-y-6">
         <input
           type="text"
           class="w-[calc(25vw*0.8)] pl-4 py-2 rounded-[20px] border border-[#767676]"
