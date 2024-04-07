@@ -1,6 +1,6 @@
 <template>
   <header class="w-5/6 mx-auto pt-6 flex text-2xl justify-between">
-	<RouterLink to="/"><img src="C:\OSPanel\domains\BIMS-GISIT\src\assets\Logo.png" alt="" /></RouterLink>
+	<RouterLink to="/"><img src="../assets/Logo.png" alt="" /></RouterLink>
     <ul class="space-x-7 flex my-auto">
       <RouterLink to="/Map">Карта</RouterLink>
       <RouterLink to="/Statisctics">Статистика</RouterLink>

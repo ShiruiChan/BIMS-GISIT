@@ -40,7 +40,7 @@
       ><div>
         <img
           class="h-screen"
-          src="C:\OSPanel\domains\BIMS-GISIT\src\assets\RightPic.png"
+          src="../assets/RightPic.png"
           alt=""
         /></div
     ></RouterLink>
